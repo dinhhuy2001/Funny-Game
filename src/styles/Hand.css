@@ -1,0 +1,37 @@
+.hand {
+    height: 30vh;
+}
+
+@media only screen and (orientation: landscape) {
+    .hand {
+        height: 40vh;
+    }
+}
+
+.hand--animate {
+    animation: hand_animation 1s;
+}
+
+@keyframes hand_animation {
+    from {
+        transform: translateY(0);
+    }
+    16% {
+        transform: translateY(-5vh);
+    }
+    32% {
+        transform: translateY(0);
+    }
+    48% {
+        transform: translateY(-5vh);
+    }
+    64% {
+        transform: translateY(0);
+    }
+    80% {
+        transform: translateY(-5vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

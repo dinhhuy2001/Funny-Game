@@ -1,0 +1,17 @@
+.appButton {
+    background-color:deepskyblue;
+    height: 7vh;
+    width: 80vw;
+    font-size: 3vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1vh 0;
+}
+
+@media only screen and (orientation: landscape) {
+    .appButton {
+        height: 10vh;
+        width: 20vw;
+        font-size: 7vh;
+    }
+}

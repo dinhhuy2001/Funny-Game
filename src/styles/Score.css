@@ -1,0 +1,22 @@
+.score {
+    text-align: center;
+    font-size: 3vh;
+}
+
+@media only screen and (orientation: landscape) {
+    .score {
+        font-size: 5vh;
+    }
+}
+
+.score__reset {
+    text-decoration: underline;
+    width:max-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+.score_point {
+    color: darkcyan;
+    font-size: 10vh;
+}
